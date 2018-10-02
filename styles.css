@@ -1,0 +1,55 @@
+/* 
+Flex Container - Parent element.
+Flex Item - Children elements.
+Main axis - left to right
+Cross axis - top to bottom
+Display on parent always needs to be there before any flex properties work on children elements
+
+Flex-flow is short hand for flex direction and flex wrap
+EXAMPLE: flex-flow: column, warp; 
+*/
+body {
+  margin: 0;
+}
+.container {
+  border: 6px solid black;
+  display: inline-flex; /* initially left to right --flex will act like a block element but if you make it inline-flex it will wrap only around children element*/
+  flex-direction: row; /* row, row-reverse (left to right vice versa), column, colum-reverse (top to bottom-vise versa)*/
+  flex-wrap: wrap; /*wrap, nowrap, wrap-reverse(moves to row above instead of below) 
+  ----
+  If I want to wrap in a column then I would need to make sure flex direction is a column and add a height --my content may go outside of the container 
+  until I add wrap my content*/
+}
+.flex-item {
+  color: green;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.item1 {
+  background-color: grey;
+}
+.item2 {
+  background-color: black;
+}
+.item3 {
+  background-color: pink;
+}
+.item4 {
+  background-color: rgb(238, 161, 174);
+}
+.item5 {
+  background-color: rgb(241, 106, 129);
+}
+.item6 {
+  background-color: rgb(252, 97, 123);
+}
+.item7 {
+  background-color: rgb(243, 227, 135);
+}
+.item8 {
+  background-color: rgb(235, 190, 95);
+}
+.item9 {
+  background-color: rgb(241, 222, 48);
+}
