@@ -7,18 +7,26 @@ Display on parent always needs to be there before any flex properties work on ch
 
 Flex-flow is short hand for flex direction and flex wrap
 EXAMPLE: flex-flow: column, warp; 
+
+Justify content - aligns the elements on the main axis (flex-start (left), center, flex-end(right)--you can also use space-between, space-around, space-evenly to handle the extra space in the container.)
+Align-items- (add a height to your container)-how items are layed out on the cross axis - vertically - value can be stretch (entire length)-flex-start(top)-flex-end(bottom)-center(middle).
+Align-content - (have height and wrapping)-values are - flex-start, flex-end, center, space-between all space between the lines, space-around.
 */
+
 body {
   margin: 0;
 }
 .container {
   border: 6px solid black;
-  display: inline-flex; /* initially left to right --flex will act like a block element but if you make it inline-flex it will wrap only around children element*/
+  display: flex; /* initially left to right --flex will act like a block element but if you make it inline-flex it will wrap only around children element*/
   flex-direction: row; /* row, row-reverse (left to right vice versa), column, colum-reverse (top to bottom-vise versa)*/
   flex-wrap: wrap; /*wrap, nowrap, wrap-reverse(moves to row above instead of below) 
   ----
   If I want to wrap in a column then I would need to make sure flex direction is a column and add a height --my content may go outside of the container 
   until I add wrap my content*/
+  height: 800px;
+  justify-content: space-around; /*cross axis*/
+  align-items: flex-start; /*main axis*/
 }
 .flex-item {
   color: green;
