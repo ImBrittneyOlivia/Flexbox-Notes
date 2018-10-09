@@ -19,3 +19,4 @@
 ![flex-shrink](https://user-images.githubusercontent.com/43420527/46641818-84af2000-cb28-11e8-8ab1-3f9fc4f92646.png)
 ![flexx](https://user-images.githubusercontent.com/43420527/46641819-84af2000-cb28-11e8-9e51-835b006aa87b.png)
 
+![align-self](https://user-images.githubusercontent.com/43420527/46642191-9ee9fd80-cb2a-11e8-8140-e4c5ecd61199.png)
