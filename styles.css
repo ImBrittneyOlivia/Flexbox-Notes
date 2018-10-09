@@ -11,6 +11,11 @@ EXAMPLE: flex-flow: column, warp;
 Justify content - aligns the elements on the main axis (flex-start (left), center, flex-end(right)--you can also use space-between, space-around, space-evenly to handle the extra space in the container.)
 Align-items- (add a height to your container)-how items are layed out on the cross axis - vertically - value can be stretch (entire length)-flex-start(top)-flex-end(bottom)-center(middle).
 Align-content - (have height and wrapping)-values are - flex-start, flex-end, center, space-between all space between the lines, space-around.
+
+Align-item Values:
+
+order- arraging the items in a specified order. All default at zero-anything above zero will go to the end. lowest to highest order.
+
 */
 
 body {
@@ -39,6 +44,7 @@ body {
 }
 .item2 {
   background-color: black;
+  order: 1;
 }
 .item3 {
   background-color: pink;
