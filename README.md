@@ -12,3 +12,8 @@
 <img width="1208" alt="justify-content" src="https://user-images.githubusercontent.com/43420527/46420994-34d2f200-c6ff-11e8-9526-6f303f256c0c.png">
 <img width="1212" alt="flex-item properties" src="https://user-images.githubusercontent.com/43420527/46641132-bde59100-cb24-11e8-9a3c-91e3d844fa03.png">
 <img width="1226" alt="flex-order" src="https://user-images.githubusercontent.com/43420527/46641133-bde59100-cb24-11e8-9eeb-8b1a243a38fa.png">
+![flex-shrink](https://user-images.githubusercontent.com/43420527/46641568-25044500-cb27-11e8-9fa7-5322c8b34dec.png)
+![flex-basis](https://user-images.githubusercontent.com/43420527/46641569-25044500-cb27-11e8-92cd-919a8bf8fb2a.png)
+![screen shot 2018-10-08 at 6 20 35 pm](https://user-images.githubusercontent.com/43420527/46641570-25044500-cb27-11e8-98dc-92cb1c24df60.png)
+![flex](https://user-images.githubusercontent.com/43420527/46641571-25044500-cb27-11e8-81f8-b8b294d219aa.png)
+![flex-grow](https://user-images.githubusercontent.com/43420527/46641572-259cdb80-cb27-11e8-852d-ee3d5a02a362.png)
